@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>pins</Authors>
+    <Copyright>zesys</Copyright>
+    <Owners>zesys</Owners>
+    <PackageProjectUrl>https://github.com/zesys/probas-ocelot-provider-nacos</PackageProjectUrl>
+    <Title>Probas.Ocelot.Provider.Nacos</Title>
+    <Description>Provides Ocelot extensions to use Nacos</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>zesys</Company>
+    <PackageId>Probas.Ocelot.Provider.Nacos</PackageId>
+	<PackageTags>API Gateway;.NET Core</PackageTags>
+    <Product>Probas.Ocelot.Provider.Nacos</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nacos-sdk-csharp.AspNetCore" Version="1.0.0" />
+    <PackageReference Include="Ocelot" Version="17.0.0" />
+  </ItemGroup>
+</Project>
