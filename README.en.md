@@ -6,6 +6,11 @@ Ocelot 集成 Nacos 注册中心组件
 #### Software Architecture
 Software architecture description
 
+#### Install Nuget Package
+```bash
+dotnet add package Probas.Ocelot.Provider.Nacos
+```
+
 #### Instructions(Usage)
 
 1.  Configure in `Program.cs`

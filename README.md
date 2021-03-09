@@ -6,6 +6,11 @@ Ocelot 集成 Nacos 注册中心组件
 #### 软件架构
 软件架构说明
 
+#### 安装Nuget包
+```bash
+dotnet add package Probas.Ocelot.Provider.Nacos
+```
+
 #### 使用说明(配置)
 
 1.  在 `Startup.cs` 进行如下配置
