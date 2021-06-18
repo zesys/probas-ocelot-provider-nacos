@@ -15,6 +15,7 @@
     <Product>Probas.Ocelot.Provider.Nacos</Product>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageReleaseNotes>Ocelot 集成 Nacos 注册中心组件</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
