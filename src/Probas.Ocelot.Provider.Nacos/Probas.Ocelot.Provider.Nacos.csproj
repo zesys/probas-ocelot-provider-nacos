@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -11,14 +11,14 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>zesys</Company>
     <PackageId>Probas.Ocelot.Provider.Nacos</PackageId>
-	<PackageTags>API Gateway;.NET Core</PackageTags>
+    <PackageTags>API Gateway;.NET Core</PackageTags>
     <Product>Probas.Ocelot.Provider.Nacos</Product>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageReleaseNotes>Ocelot 集成 Nacos 注册中心组件</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="nacos-sdk-csharp.AspNetCore" Version="1.0.0" />
+    <PackageReference Include="nacos-sdk-csharp.AspNetCore" Version="1.1.0"/>
     <PackageReference Include="Ocelot" Version="17.0.0" />
   </ItemGroup>
 
